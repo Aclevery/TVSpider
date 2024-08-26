@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ "ubuntu-latest" ]
+        os: [ "windows-latest" ]
     steps:
       - name: Clone Base Repository
         uses: actions/checkout@v3
